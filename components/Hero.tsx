@@ -6,7 +6,7 @@ export default function Hero() {
     <>
       {/* Hero */}
       <div className="hero_background-sm relative  overflow-hidden">
-        <div className="container mx-auto px-4 py-24 md:px-6 lg:py-32 2xl:max-w-[1400px]">
+        <div className="container mx-auto px-4 py-24 md:px-6 lg:py-32">
           {/* Title */}
           <div className="mx-auto mt-5 max-w-2xl">
             <h1 className="text-xl md:text-5xl text-white mb-6">
