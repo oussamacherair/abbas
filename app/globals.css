@@ -47,6 +47,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: calc(100vh-65px);
+    height: calc(100vh - 65px);
+    width: 100%;
+  }
+
+  .shop-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url("/shop-bg-sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
   }

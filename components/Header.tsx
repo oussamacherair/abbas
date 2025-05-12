@@ -23,7 +23,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex p-2 justify-between">
+    <header className="flex px-4 py-2 justify-between shadow-md">
         <div>
             <Link href="/">
             <Image src="/logo.jpg" width={70} height={50} alt="logo"/>
@@ -46,8 +46,8 @@ const Header = () => {
               </DrawerHeader>
               <div className="px-4 py-2">
                 <Link href="/" className="block py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Home</Link>
-                <Link href="/about" className="block py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>About</Link>
-                <Link href="/services" className="block py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Services</Link>
+                <Link href="/Shop" className="block py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Shop</Link>
+                <Link href="/Services" className="block py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Services</Link>
                 <Link href="/contact" className="block py-2 hover:text-primary" onClick={() => setIsMenuOpen(false)}>Contact</Link>
                 <Button size={"lg"} variant="destructive">Contact Us</Button>
               </div>
