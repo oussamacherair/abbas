@@ -56,7 +56,7 @@ export default function ServicesPage() {
     <div className="bg-gray-50 py-16">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 ">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h1>
           <div className="w-24 h-1 bg-[#D1AD5B] mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
