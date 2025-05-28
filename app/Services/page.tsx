@@ -88,7 +88,7 @@ export default function ServicesPage() {
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 
                 <Link 
-                  href={`/Services/${service.link}`} 
+                  href={"#"} 
                   className="inline-flex items-center text-[#CCA64E] font-medium hover:underline"
                 >
                   Learn More
