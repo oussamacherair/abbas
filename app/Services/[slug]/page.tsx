@@ -18,7 +18,7 @@ interface Service {
   benefits?: string[];
 }
 
-// Services data from the Services component
+// Services data
 const services: Service[] = [
   {
     id: 1,
@@ -115,8 +115,14 @@ const services: Service[] = [
   }
 ];
 
-export default function ServiceDetail({ params }: { params: { slug: string } }) {
-  // Find the service by slug
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export default function ServiceDetail({ params }: PageProps) {
+  // Find the service
   const service = services.find(s => s.link === params.slug);
   
   // If service not found, show 404
