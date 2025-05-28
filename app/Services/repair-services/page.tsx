@@ -211,7 +211,6 @@ export default function RepairServiceDetail() {
   // State for repair tracking form
   const [repairId, setRepairId] = useState("");
   const [customerName, setCustomerName] = useState("");
-  const [searchAttempted, setSearchAttempted] = useState(false);
   const [repairData, setRepairData] = useState<RepairStatus | null>(null);
   const [showModal, setShowModal] = useState(false);
   const [error, setError] = useState("");
@@ -219,7 +218,6 @@ export default function RepairServiceDetail() {
   // Handle form submission
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSearchAttempted(true);
     setError("");
     
     // Validate inputs
