@@ -134,7 +134,7 @@ const ContactUs = () => {
                       <Link href="#" className="p-2 sm:p-3 md:p-4 hover:bg-opacity-30 transition-all duration-300">
                         <Facebook size={30} className="text-white md:h-8 md:w-8 lg:h-9 lg:w-9" />
                       </Link>
-                      <Link href="https://wa.me/2130673070040?text=مرحبا، أريد الطلب" className="p-2 sm:p-3 md:p-4 hover:bg-opacity-30 transition-all duration-300">
+                      <Link href="https://wa.me/2130673070040?text=contact us" className="p-2 sm:p-3 md:p-4 hover:bg-opacity-30 transition-all duration-300">
                         <Image src="/WhatsApp.jpg" alt="whatsup" width={25} height={25} className="sm:w-[30px] sm:h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px]"/>
                       </Link>
                       <Link href="#" className="p-2 sm:p-3 md:p-4 font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl hover:bg-opacity-30 transition-all duration-300">
