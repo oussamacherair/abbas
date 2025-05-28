@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -115,13 +113,12 @@ const services: Service[] = [
   }
 ];
 
-interface PageProps {
-  params: {
-    id: string;
-  };
+type Props = {
+  params: { id: string }
+  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function ServiceDetail({ params }: PageProps) {
+export default function ServiceDetail({ params }: Props) {
   // Find the service
   const service = services.find(s => s.link === params.id);
   
