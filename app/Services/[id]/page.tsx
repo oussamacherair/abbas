@@ -117,13 +117,13 @@ const services: Service[] = [
 
 interface PageProps {
   params: {
-    slug: string;
+    id: string;
   };
 }
 
 export default function ServiceDetail({ params }: PageProps) {
   // Find the service
-  const service = services.find(s => s.link === params.slug);
+  const service = services.find(s => s.link === params.id);
   
   // If service not found, show 404
   if (!service) {
