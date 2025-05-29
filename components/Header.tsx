@@ -33,7 +33,7 @@ const Header = () => {
         {/* Desktop Navigation - Hidden on small screens, visible on md/lg */}
         <nav className="hidden md:flex items-center space-x-8">
           <Link href="/" className="font-medium text-gray-700 hover:text-[#D1AD5B] transition-colors">Home</Link>
-          <Link href="/Shop" className="font-medium text-gray-700 hover:text-[#D1AD5B] transition-colors">Shop</Link>
+          <Link href="#" className="font-medium text-gray-700 hover:text-[#D1AD5B] transition-colors">Shop</Link>
           <Link href="/Services" className="font-medium text-gray-700 hover:text-[#D1AD5B] transition-colors">Services</Link>
           <Link href="/contact" className="font-medium text-gray-700 hover:text-[#D1AD5B] transition-colors">Contact</Link>
           <Button variant="destructive" className="ml-4">Contact Us</Button>
